@@ -1,4 +1,4 @@
-package org.parth.moviebooking;
+package org.parth.moviebookings;
 
 import org.junit.Test;
 

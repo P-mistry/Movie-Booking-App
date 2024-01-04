@@ -1,29 +1,23 @@
-package org.parth.moviebooking.Activity;
+package org.parth.moviebookings.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.app.DownloadManager;
-import android.media.tv.TvContract;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ListView;
 import android.widget.ProgressBar;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
 
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 
-import org.parth.moviebooking.Adapter.FilmListAdapter;
-import org.parth.moviebooking.Domain.FilmItem;
-import org.parth.moviebooking.Domain.Listfilm;
-import org.parth.moviebooking.R;
+import org.parth.moviebookings.Adapter.FilmListAdapter;
+import org.parth.moviebookings.Domain.Listfilm;
+import org.parth.moviebookings.R;
 
 public class MainActivity extends AppCompatActivity {
     private RecyclerView.Adapter adapterNewMovie, adapterUpComming;

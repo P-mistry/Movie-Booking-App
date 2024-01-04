@@ -1,8 +1,7 @@
-package org.parth.moviebooking.Adapter;
+package org.parth.moviebookings.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,10 +13,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 
-import org.parth.moviebooking.Activity.DetailActivity;
-import org.parth.moviebooking.Domain.FilmItem;
-import org.parth.moviebooking.Domain.Listfilm;
-import org.parth.moviebooking.R;
+import org.parth.moviebookings.Activity.DetailActivity;
+import org.parth.moviebookings.Domain.Listfilm;
+import org.parth.moviebookings.R;
 
 public class FilmListAdapter extends RecyclerView.Adapter<FilmListAdapter.ViewHolder> {
     Listfilm items;

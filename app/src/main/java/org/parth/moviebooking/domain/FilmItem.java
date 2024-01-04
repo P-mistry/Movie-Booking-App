@@ -1,5 +1,5 @@
 
-package org.parth.moviebooking.Domain;
+package org.parth.moviebookings.Domain;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 
-public class Listfilm {
+public class FilmItem {
 
     @SerializedName("data")
     @Expose

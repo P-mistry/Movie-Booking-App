@@ -1,9 +1,9 @@
-package org.parth.moviebooking.Activity;
+package org.parth.moviebookings.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import org.parth.moviebooking.R;
+import org.parth.moviebookings.R;
 
 public class IntroActivity2 extends AppCompatActivity {
 

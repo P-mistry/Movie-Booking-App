@@ -1,14 +1,16 @@
-package org.parth.moviebooking;
+package org.parth.moviebooking.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class DetailActivity extends AppCompatActivity {
+import org.parth.moviebooking.R;
+
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
+        setContentView(R.layout.activity_login);
     }
 }
